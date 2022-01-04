@@ -80,7 +80,8 @@ PRODUCT_SYSTEM_SERVER_APPS += \
     Telecom \
 
 PRODUCT_COPY_FILES += \
-    frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf
+    frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf\
+    system/core/libgojni/jni/arm64-v8a/libgojni.so:system/lib64/libgojni.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=unknown \
