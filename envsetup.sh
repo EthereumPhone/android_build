@@ -1,4 +1,4 @@
-export WITH_GMS = true;
+export WITH_GMS=true;
 function hmm() {
 cat <<EOF
 
