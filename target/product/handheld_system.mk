@@ -71,6 +71,7 @@ PRODUCT_PACKAGES += \
     UserDictionaryProvider \
     VpnDialogs \
     vr \
+    DAppStore \
 
 
 PRODUCT_SYSTEM_SERVER_APPS += \
