@@ -42,3 +42,6 @@ endif
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
+
+PRODUCT_COPY_FILES += \
+    system/media/bootanimation.zip:product/media/bootanimation.zip
